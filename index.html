@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title> Notepad Program </title>
+
+	<meta name = "keywords" content = "Walter Low", "Notes", "Notepad">
+	<meta name = "description" content = "This is my HTML/CSS/JS Notepad.">
+	<meta name = "author" content = "Walter Low">
+
+	<meta charset = "UTF-8">
+	<meta http-equiv = "X-UA-Compatible" content = "IE=edge">
+	<meta name = "viewport" content = "width=device-width, initial-scale = 1.0">
+
+	<link rel = "icon" type = "image/x-icon" href = "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Notepad_icon.svg/1200px-Notepad_icon.svg.png"> 
+
+	<link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+        <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel = "stylesheet" href = "https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+        <script src = "https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+        <script src = "https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src = "https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+
+	<link rel = "stylesheet" href = "C:/notepadProgram/notepad_styling.css">
+	<script src = "C:/notepadProgram/notepad_scripts.js" defer = "true"> </script>
+
+</head>
+<body>
+
+	<div class = "container my-3">
+		<h1 style = "font-size: 5vw;"> Notes </h1>
+		<div class = "card">
+			<div class = "card-body">
+				<h5 class = "card-title"> Add a note </h5>
+				<div class = "form-group">
+					<textarea class = "form-control" id = "addText" rows = "3"> </textarea>
+				</div>
+				<button class = "btn btn-primary" id = "add"> Add Notes </button>
+			</div>
+		</div>
+		<hr>
+		<h1> Your Notes </h1>
+		<hr>
+		<div id = "notes" class = "row container-fluid"> </div>
+	</div>	
+
+</body>
