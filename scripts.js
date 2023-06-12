@@ -53,3 +53,4 @@ function removeNote(index) {
 	localStorage.setItem("notes", JSON.stringify(content));
 	displayNotes();
 }
+displayNotes();
